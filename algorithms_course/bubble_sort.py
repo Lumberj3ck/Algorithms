@@ -1,4 +1,3 @@
-
 def bubble_sort(unordered_array: list) -> list:
     for i in range(len(unordered_array)):
         for j in range(len(unordered_array) - i - 1):
