@@ -1,0 +1,36 @@
+Array list is a DS which underneath the hood is using 
+arrays.
+
+
+It has bunch of methods 
+
+Stack like methods
+
+### Push and Pop, 
+array list is good at push and pop 
+Just check the capacity of the array if it's not enough
+What happens when we exceed the capacity of the array
+Create new array the copy all the values, push our new value
+
+### Pop O(1)
+So Append is light operation and pop(-1) is also light  almost O(1) operation
+
+
+### Enqueue ( Insert(0) -- O(n) - because it depends on the legth of array ) 
+For this when we exceed our array capacity 
+we recreate array than, because we adding new value to the front of array
+we need to shift values to the next position 
+Insert almost at the end of list is lighter than inserting at the begining 
+( we need to shift much less objects )
+
+
+### Dequeue  ( Pop(0)  -- O(n) - because it depends on the legth of array )
+Is the same. We need to shift over all values. 
+remove the element from the middle of array is also O(n)
+
+
+So this is why people use Python Deque ( Double linked queue )
+Because it's very efficent to use when we poping and inserting values from 
+the edges.
+
+

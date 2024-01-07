@@ -21,7 +21,7 @@ def two_crystal_balls(breaks: list[bool]) -> int:
     i -= jump_amount
 
     # scaning this area using second ball
-    for i in range(i, i + jump_amount + 1): #  + 1 because we need to check if i + jump_amount index is the first floor breaks
+    for i in range(i, i + jump_amount + 1):
         print(i)
         if breaks[i]:
             return i

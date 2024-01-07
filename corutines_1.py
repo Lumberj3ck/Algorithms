@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 def timer(func):
     def inner(*args, **kwargs):
         import time

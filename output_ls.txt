@@ -1,0 +1,11 @@
+__pycache__
+algorithms_course
+asyncio_start.py
+corutines_1.py
+learning_pytest
+leet_code
+output_ls.txt
+recursive
+sql_session.sql
+tasks_celery.py
+venv
