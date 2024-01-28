@@ -1,6 +1,9 @@
-def func(x):
-    return x + 5
+import pytest 
 
 
+# @pytest.mark.run_these
 def test_func():
-    assert func(2) == 8
+    print('Some output')
+    assert 1 in [2, 3, 4]
+
+
